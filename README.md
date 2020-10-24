@@ -54,7 +54,6 @@ sudo pip3 install opencv-python
 
 ```
 
-pip3 install opencv-python
 
 ## Step 1 – Cloning Raspberry Pi Camera Stream
 Open up terminal and clone the Camera Stream repo:
