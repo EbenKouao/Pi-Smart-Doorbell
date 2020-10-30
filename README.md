@@ -1,7 +1,9 @@
 # Raspberry Pi - Pi Smart DoorBbell
 
-Create your own Smart Doorbell live stream camera and keep an eye out at who's at your door. 
-Features: A Motor interactiotion to lock and unlock doors from your phone / client device(s).
+Create your own Smart Doorbell live stream camera, and keep an eye out at who's at your door. 
+Features: 
+- A Motor interactiotion to lock and unlock doors from your phone / client device(s). 
+- Basic Face Detection based on the Haardcascade xml models.
 
 ## How it works
 Based on the previous [Pi Stream Camera Project.](https://github.com/EbenKouao/pi-camera-stream-flask)
@@ -22,9 +24,9 @@ haarcascade_frontalface_alt2.xml
 Note: Change the xml models to suit your needs e.g. [haarcascade_fullbody.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_fullbody.xml)
 
 ## Screenshots
-| ![Setup](readme/pi-stream-client.jpg) | ![Live Pi Camera Stream](readme/pi-stream-screen-capture.jpg) |
-|---|---|
-| Pi Setup | Pi - Live Stream |
+| ![Setup](readme/pi-door-bell-setup.jpg) | ![Live Pi Camera Stream](readme/pi-stream-face-detection.jpg) |![Door Lock](readme/pi-doorlock-motor.jpg)
+|---|---|---|
+| Pi Setup | Pi - Live Stream | Door Lock System
 
 ## Preconditions
 
