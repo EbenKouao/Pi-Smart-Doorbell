@@ -1,4 +1,4 @@
-# Raspberry Pi - Pi Smart DoorBbell
+# Raspberry Pi - Smart DoorBell
 
 Create your own Smart Doorbell live stream camera, and keep an eye out at who's at your door. 
 Features: 
@@ -32,7 +32,7 @@ Note: Change the xml models to suit your needs e.g. [haarcascade_fullbody.xml](h
 
 * Raspberry Pi 4, 2GB is recommended for optimal performance. However you can use a Pi 3 or older, you may see a increase in latency.
 * Raspberry Pi 4 Camera Module or Pi HQ Camera Module (Newer version)
-* Python 3 recommended.
+* Python 3 highly recommended.
 
 ## Library dependencies
 Install the following dependencies to create camera stream.
@@ -52,8 +52,6 @@ sudo pip3 install numpy
 sudo pip3 install opencv-contrib-python
 sudo pip3 install imutils
 sudo pip3 install opencv-python
-
-
 ```
 
 
